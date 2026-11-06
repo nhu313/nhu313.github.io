@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="article">
+  {% if page.back_url %}<a class="back-link" href="{{ page.back_url | relative_url }}">← {{ page.back_label | default: "Back" }}</a>{% endif %}
+  <header class="article-header">{% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}<h1>{{ page.heading | default: page.title }}</h1>{% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}</header>
+  <div class="prose">{{ content }}</div>
+</article>

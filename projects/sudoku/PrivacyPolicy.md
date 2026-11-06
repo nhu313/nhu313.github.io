@@ -1,6 +1,12 @@
-# Privacy Policy for Sudoku
-
-_Last updated: November 5, 2026_
+---
+layout: page
+title: Sudoku - Privacy Policy
+heading: Privacy Policy for Sudoku
+eyebrow: "LAST UPDATED: NOVEMBER 5, 2026"
+back_url: /projects/
+back_label: Back to projects
+permalink: /projects/sudoku/privacypolicy
+---
 
 This policy explains how the Sudoku app ("the App") for iPhone and iPad handles your information.
 
@@ -42,4 +48,4 @@ If this policy changes, the updated version will be posted at this address with 
 
 ## Contact
 
-Questions about this policy: **TODO: your email address**
+Questions about this policy: nhu313@gmail.com
