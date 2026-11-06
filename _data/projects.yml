@@ -1,0 +1,18 @@
+- number: "01"
+  name: "Project One"
+  type: "PRODUCT · ENGINEERING"
+  description: "A short description of the problem, your contribution, and the result. Replace this sample project with something you're proud of."
+  tags: ["React", "Product"]
+  url: ""
+- number: "02"
+  name: "Project Two"
+  type: "RESEARCH · DATA"
+  description: "Explain the question you explored, the approach you took, and what you learned or delivered."
+  tags: ["Python", "Research"]
+  url: ""
+- number: "03"
+  name: "Project Three"
+  type: "OPEN SOURCE"
+  description: "Highlight a useful tool, a community contribution, or a side project that demonstrates how you think."
+  tags: ["Open source", "JavaScript"]
+  url: ""

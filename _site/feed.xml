@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-11-06T10:05:44-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nhu Nguyen</title><subtitle>My little corner on the web</subtitle><entry><title type="html">Welcome to my blog</title><link href="http://localhost:4000/blog/2026/11/05/welcome-to-the-blog/" rel="alternate" type="text/html" title="Welcome to my blog" /><published>2026-11-05T00:00:00-05:00</published><updated>2026-11-05T00:00:00-05:00</updated><id>http://localhost:4000/blog/2026/11/05/welcome-to-the-blog</id><content type="html" xml:base="http://localhost:4000/blog/2026/11/05/welcome-to-the-blog/"><![CDATA[<p>This is where I’ll share ideas, experiments, and lessons learned.</p>
+
+<h2 id="what-im-exploring">What I’m exploring</h2>
+
+<ul>
+  <li>Software and product development</li>
+  <li>Research and data</li>
+  <li>Learning in public</li>
+</ul>
+
+<p>Here is an example code block:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">say_hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!</span><span class="sh">"</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="nf">say_hello</span><span class="p">(</span><span class="sh">"</span><span class="s">world</span><span class="sh">"</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Add a new Markdown file to <code class="language-plaintext highlighter-rouge">_posts</code> to publish your next article. Use the filename format <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-your-post-title.md</code>.</p>]]></content><author><name></name></author><category term="notes" /><category term="personal" /><summary type="html"><![CDATA[A first note about what you'll find here.]]></summary></entry></feed>

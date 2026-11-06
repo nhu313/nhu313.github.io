@@ -1,0 +1,18 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<section class="page-hero compact">
+  <p class="eyebrow">SELECTED WORK</p><h1>Projects<span>.</span></h1>
+  <p>A selection of problems I've explored, products I've helped build, and ideas I've brought to life.</p>
+</section>
+<section class="section projects-list">
+  {% for project in site.data.projects %}
+  <article class="project-row">
+    <div class="project-art art-{{ forloop.index | modulo: 4 | plus: 1 }}"><span>{{ project.number }}</span></div>
+    <div><p class="project-type">{{ project.type }}</p><h2>{{ project.name }}</h2><p>{{ project.description }}</p><div class="tag-list">{% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+    {% if project.url != '' %}<a class="arrow-link" href="{{ project.url }}">Visit project <span>↗</span></a>{% endif %}</div>
+  </article>
+  {% endfor %}
+</section>
